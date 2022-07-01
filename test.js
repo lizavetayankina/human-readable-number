@@ -18,7 +18,7 @@ it('Should return \'one\' when 1 given', () => {
 it('Should return \'two\' when 2 given', () => {
   const readable = toReadable(2);
 
-  assert.equal(readable, 'two');
+  assert.equal(readable, 'one');
 });
 
 it('Should return \'three\' when 3 given', () => {
